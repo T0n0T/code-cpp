@@ -1,0 +1,17 @@
+CompileFlags:
+  Add:
+    [
+      -Wall,
+      -Wno-missing-prototypes,
+      "--include-directory=D:/mingw/llvm-mingw-20230614-ucrt-x86_64/include",
+    ]
+  Remove: -W*
+  Compiler: clang
+
+Index:
+  Background: Build
+
+InlayHints:
+  Enabled: Yes
+  ParameterNames: Yes
+  DeducedTypes: Yes

@@ -1,0 +1,22 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"C_Cpp.intelliSenseEngine": "disabled",
+		"clangd.arguments": [
+			"--background-index",
+			"--compile-commands-dir=build",
+			"-j=12",
+			"--query-driver=D:\\mingw\\llvm-mingw-20230614-ucrt-x86_64\\bin\\clang++.exe",
+			"--clang-tidy",
+			"--clang-tidy-checks=performance-*,bugprone-*",
+			"--all-scopes-completion",
+			"--completion-style=detailed",
+			"--header-insertion=iwyu",
+			"--pch-storage=disk"
+		]
+	}
+}
