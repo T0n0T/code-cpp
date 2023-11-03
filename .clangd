@@ -1,12 +1,8 @@
 CompileFlags:
-  Add:
-    [
-      -Wall,
-      -Wno-missing-prototypes,
-      "--include-directory=D:/mingw/llvm-mingw-20230614-ucrt-x86_64/include",
-    ]
+  Add: [-xc++, -std=c++17, -Wall, -Wno-missing-prototypes, -Wno-unused-function]
+
   Remove: -W*
-  Compiler: clang
+  Compiler: clang++
 
 Index:
   Background: Build
